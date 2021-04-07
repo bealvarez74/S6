@@ -6,4 +6,3 @@ ReactDOM.render(
     <Book />, document.getElementById('root')
 );
 
-

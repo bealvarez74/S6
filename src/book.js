@@ -5,6 +5,5 @@ function Book() {
         <div>Viatge a la Lluna</div>
     )
 }
-
 export default Book
 
