@@ -1,7 +1,8 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import Book from './book.js';
+import React from 'react'
+import ReactDOM from 'react-dom'
+
+import App from './App'
 
 ReactDOM.render(
-<Book />, document.getElementById('root')
+<App />, document.getElementById('root')
 );

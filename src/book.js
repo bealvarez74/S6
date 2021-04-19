@@ -1,9 +1,12 @@
 import React from "react"
 
-function Book() {
+
+
+function Book(props) {
+
     return (
-        <div>Viatge a la Lluna</div>
+        <div>{props.titulo}</div>
     )
 }
 
-export default () => Book
+export default Book
