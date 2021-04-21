@@ -1,11 +1,12 @@
 import React from "react"
 
-
-
 function Book(props) {
 
-    return (
-        <div>{props.titulo}</div>
+    return (   
+        <div>
+            <h2>{props.book.title}</h2>
+            <p>{props.book.author}</p>
+        </div>
     )
 }
 
